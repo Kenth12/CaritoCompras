@@ -56,7 +56,7 @@ const AgregarCarrito = e => {
     //console.log(e.target.parentElement);
     //llenarCarrito(e.target.parentElement);
 }
-/*
+
 const llenarCarrito = item => {
     //console.log(item);
     const producto = {
@@ -102,7 +102,7 @@ const pintarCarrito = () =>{
     items.appendChild(fragment);
     pintarFooter();
 }
-
+/*
 const pintarFooter = ()=>{
     footer.innerHTML='';
     if (Object.values(Carrito).length === 0) {
