@@ -25,7 +25,7 @@ const fetchData = async () => {
     const results = await res.json();
     PintarCards(results);
 }
-/*
+
 const PintarCards = results =>{
 //console.log(results);
     results.forEach(result => {
@@ -56,7 +56,7 @@ const AgregarCarrito = e => {
     //console.log(e.target.parentElement);
     //llenarCarrito(e.target.parentElement);
 }
-
+/*
 const llenarCarrito = item => {
     //console.log(item);
     const producto = {
