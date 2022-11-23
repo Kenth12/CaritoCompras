@@ -25,7 +25,7 @@ const fetchData = async () => {
     const results = await res.json();
     PintarCards(results);
 }
-
+/*
 const PintarCards = results =>{
 //console.log(results);
     results.forEach(result => {
@@ -150,3 +150,4 @@ const BtnAgregarYBorras = e=>{
         }
     }
 }
+*/
