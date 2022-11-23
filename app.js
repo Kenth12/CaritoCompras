@@ -102,7 +102,7 @@ const pintarCarrito = () =>{
     items.appendChild(fragment);
     pintarFooter();
 }
-/*
+
 const pintarFooter = ()=>{
     footer.innerHTML='';
     if (Object.values(Carrito).length === 0) {
@@ -150,4 +150,3 @@ const BtnAgregarYBorras = e=>{
         }
     }
 }
-*/
