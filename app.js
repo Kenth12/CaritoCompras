@@ -39,7 +39,7 @@ const PintarCards = results =>{
     templateProducto.getElementById('span').textContent=result.precio;
     templateProducto.querySelector('img').setAttribute("src", result.image);
     templateProducto.querySelector('#button').dataset.id=result.id;
-    templateProducto.querySelector('#button2').dataset.id=result.id;
+    //templateProducto.querySelector('#button2').dataset.id=result.id;
     const clone = templateProducto.cloneNode(true);
     fragment.appendChild(clone);
 
